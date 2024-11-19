@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Roboto", sans-serif;
+}
+body{
+    background-image: linear-gradient(to right ,#332F2C, #A56E49,#fa741bc4,#7A5E4B,#50453E);
+   
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    display:flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+header img{
+    height: 60px;
+    margin-right: 16px;
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 940px;
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+form input{
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 220px;
+    color: #fff;
+
+}
+::-webkit-input-placeholder {
+    color: #ffffff6c;
+ }
+form label{
+    font-size: 19px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+button{
+    background-color:#fc5404;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+table{
+    width: 100%;
+}
+table th{
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fc5404;
+}
+table td{
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: #000;
+}
